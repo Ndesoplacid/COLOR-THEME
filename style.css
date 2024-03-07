@@ -1,0 +1,26 @@
+body {
+    transition: background-color 0.3s ease;
+}
+header {
+    background-color: #333;
+    color:#fff;
+    padding:20px;
+}
+.theme-Switcher {
+    margin-top: 10px;
+}
+button{
+    padding: 10px 20px;
+    margin-right:10px;
+}
+/*Light Theme */
+body.ligtt-theme {
+    background-color: #fff;
+    color: #fff;
+    color: #333;
+}
+/*Dark Theme*/
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
